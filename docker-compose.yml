@@ -10,3 +10,5 @@ services:
     ports:
       - "${MINETRACK_PORT}:8080"
     restart: always
+    volumes:
+      - ${MINETRACK_DATA}/database.sql:/usr/src/minetrack/database.sql
