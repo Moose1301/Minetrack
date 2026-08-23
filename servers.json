@@ -1,12 +1,32 @@
 [
 	{
-		"name": "Hypixel",
-		"ip": "mc.hypixel.net",
+		"name": "PvPHQ",
+		"ip": "play.pvphq.com",
 		"type": "PC"
 	},
 	{
-		"name": "CubeCraft",
-		"ip": "play.cubecraft.net",
+		"name": "TalonMC",
+		"ip": "play.talonmc.net",
+		"type": "PC"
+	},
+	{
+		"name": "FlareMC",
+		"ip": "play.flaremc.org",
+		"type": "PC"
+	},
+	{
+		"name": "Minemen",
+		"ip": "na.mineman.club",
+		"type": "PC"
+	},
+	{
+		"name": "McPVP (Dream x Donut)",
+		"ip": "mcpvp.com",
+		"type": "PC"
+	},
+	{
+		"name": "McPVP",
+		"ip": "mcpvp.club",
 		"type": "PC"
 	}
 ]
