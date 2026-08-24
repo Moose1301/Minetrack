@@ -25,5 +25,5 @@ docker build . --tag minetrack:latest
 
 # start container, delete on exit
 # publish container port 8080 on host port 80
-docker run --rm --publish 80:8080 minetrack:latest
+docker run -e MINETRACK_PORT=8081 -e MINETRACK_DATA=/opt/tracker --rm --publish 80:8080 minetrack:latest
 ```
