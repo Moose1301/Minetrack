@@ -28,5 +28,10 @@
 		"name": "McPVP",
 		"ip": "mcpvp.club",
 		"type": "PC"
+	},
+	{
+		"name": "CavePvP",
+		"ip": "cavepvp.com",
+		"type": "PC"
 	}
 ]
