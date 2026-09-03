@@ -3,7 +3,7 @@
 </p>
 
 # Minetrack
-Minetrack makes it easy to keep an eye on your favorite Minecraft servers. Simple and hackable, Minetrack easily runs on any hardware. Use it for monitoring, analytics, or just for fun. [Check it out](https://minetrack.me).
+Minetrack makes it easy to keep an eye on your favorite Minecraft servers. Simple and hackable, Minetrack easily runs on any hardware. Use it for monitoring, analytics, or just for fun. [Check it out](https://track.antiskid.club).
 
 This instance is public at: [track.antiskid.club](https://track.antiskid.club)
 
