@@ -16,6 +16,8 @@ services:
       - traefik.http.routers.minetrack.entrypoints=websecure
       - traefik.http.services.minetrack.loadbalancer.server.port=8080
       - traefik.http.routers.minetrack.tls=true
+    networks:
+      webproxy:
       
 networks:
   webproxy:
