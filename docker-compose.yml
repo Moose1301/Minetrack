@@ -15,3 +15,9 @@ services:
       - traefik.http.routers.minetrack.rule=Host(`track.antiskid.club`)
       - traefik.http.routers.minetrack.entrypoints=websecure
       - traefik.http.services.minetrack.loadbalancer.server.port=8080
+      - traefik.http.routers.minetrack.tls=true
+      
+networks:
+  webproxy:
+    name: webproxy
+    external: true
