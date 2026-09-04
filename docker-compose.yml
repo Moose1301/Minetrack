@@ -7,8 +7,10 @@ services:
     dns:
       - 8.8.8.8
       - 1.1.1.1
-    ports:
-      - "${MINETRACK_PORT}:8080"
     restart: always
     volumes:
       - ${MINETRACK_DATA}/database.sql:/usr/src/minetrack/database.sql
+      - traefik.enable=true
+      - traefik.http.routers.guides.rule=Host(`track.antiskid.club`)
+      - traefik.http.routers.guides.entrypoints=https
+      - traefik.http.services.guides.loadbalancer.server.port=8080
