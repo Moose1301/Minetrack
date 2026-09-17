@@ -20,13 +20,28 @@
 		"type": "PC"
 	},
 	{
-		"name": "McPVP (Dream x Donut)",
+		"name": "MCPvP",
 		"ip": "mcpvp.com",
 		"type": "PC"
 	},
 	{
-		"name": "McPVP",
+		"name": "PvPClub",
 		"ip": "mcpvp.club",
+		"type": "PC"
+	},
+	{
+		"name": "Strafe",
+		"ip": "strafepvp.cc",
+		"type": "PC"
+	},
+	{
+		"name": "Stray",
+		"ip": "stray.gg",
+		"type": "PC"
+	},
+	{
+		"name": "CatPvP",
+		"ip": "catpvp.xyz",
 		"type": "PC"
 	},
 	{
